@@ -6,10 +6,9 @@ int main(){
     int A, B;
     cin >> A >> B;
 
-    double M = (B-A)/400;
-    cout << M;
-    double res = 1 /(1 + pow(10,m)); 
+    double M = (B-A)/(double)400;    
+    double res = 1 /(1 + pow(10,M)); 
 
-    cout << res;
+    cout << res << endl;
     return 0;
 }
